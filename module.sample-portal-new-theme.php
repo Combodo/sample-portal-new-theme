@@ -10,12 +10,12 @@ SetupWebPage::AddModule(
 		// Identification
 		//
 		'label' => 'Sample Portal (new theme)',
-		'category' => 'business',
+		'category' => 'portal',
 
 		// Setup
 		//
 		'dependencies' => array(
-			'itop-portal/1.0.0'
+			'itop-portal-base/1.0.0'
 		),
 		'mandatory' => false,
 		'visible' => true,
@@ -23,7 +23,7 @@ SetupWebPage::AddModule(
 		// Components
 		//
 		'datamodel' => array(
-			'model.sample-portal-new-theme.php'
+			//'model.sample-portal-new-theme.php'
 		),
 		'webservice' => array(
 			
