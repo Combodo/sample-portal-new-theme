@@ -4,7 +4,7 @@
     <module_design id="itop-portal" xsi:type="portal">
       <properties>
         <themes>
-          <theme id="bootstrap" _delta="define">../sample-portal-new-theme/bootswatch-slate.css</theme>
+          <theme id="bootstrap" _delta="define">sample-portal-new-theme/bootstrap-theme-simplex.min.css</theme>
         </themes>
       </properties>
     </module_design>
