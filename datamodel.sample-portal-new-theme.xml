@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3">
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.4">
   <module_designs>
     <module_design id="itop-portal" xsi:type="portal">
       <properties>
         <themes>
-          <theme id="bootstrap" _delta="define_if_not_exists">sample-portal-new-theme/css/bootstrap-theme-simplex.min.css</theme>
+          <theme id="bootstrap" _delta="force">sample-portal-new-theme/css/bootstrap-theme-simplex.min.css</theme>
         </themes>
       </properties>
     </module_design>
